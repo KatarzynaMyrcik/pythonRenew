@@ -1,0 +1,15 @@
+#this is a first test. I have to add 3 new variables
+#Name of patient in Hospital
+name = 'John'
+surname = 'Smith'
+#age
+birthday_year = 2003
+current_year = 2023
+age = current_year - birthday_year
+#Is it anew patient or not/
+already_visited = False
+print('This is ' + name + ' ' + surname)
+print('He is ' + str(age)+' years old')
+if already_visited == True:
+    print('He already visited this hospital')
+else: print('He is new here')
