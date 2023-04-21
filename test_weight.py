@@ -11,6 +11,6 @@ if low_type == 'p':
     print(str(round(pdweight, 1)) + '  is your weight in kg')
 elif low_type == 'k':
     pdweight = int(weight) / 0.45
-    print(str(round(pdweight, 1)) + '  is your weight in pounds')
+    print(f'{str(round(pdweight, 1))} is your weight in pounds')
 else:
     print('hmmm. Something went wrong. Maybe it was your cat clicking on the keyboard...')
