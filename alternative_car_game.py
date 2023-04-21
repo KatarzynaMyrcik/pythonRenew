@@ -6,12 +6,12 @@ action = ''
 while True:
     action = input('> ').lower()
     if action == 'h':
-        print("""You choose [h]elp
-        In this game You have a possibility to:
-        [start] a car
-        [stop] a car
-        [q]uit the game
-        What do you want to do? """)
+        print("""You chose [h]elp
+In this game You have a possibility to:
+[start] a car
+[stop] a car
+[q]uit the game
+What do you want to do? """)
     elif action == 'start':
         print('the car is starting')
     elif action == 'stop':
