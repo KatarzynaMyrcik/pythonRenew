@@ -2,7 +2,7 @@
 print('Welcome in my car game!')
 print("you can start. If you don't know the options please type [h]elp.")
 print("What do you want to do? ")
-action = ' '
+action = ''
 while action != 'q':
     action = input('> ').lower()
     if action == 'h':
