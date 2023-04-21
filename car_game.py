@@ -3,6 +3,8 @@ print('Welcome in my car game!')
 print("you can start. If you don't know the options please type [h]elp.")
 print("What do you want to do? ")
 action = ''
+started = False
+
 while action != 'q':
     action = input('> ').lower()
     if action == 'h':
@@ -13,9 +15,17 @@ while action != 'q':
         [q]uit the game
         What do you want to do? """)
     elif action == 'start':
-        print('the car is starting')
+        if started:
+            print('The car is already started')
+        else:
+            started = True
+            print('the car is starting')
     elif action == 'stop':
-        print('the car is stopped')
+        if not started:
+            print("Car is already stopped")
+        else:
+            started = False
+            print('the car is stopped')
     elif action == 'q':
         print('OK')
     else:
