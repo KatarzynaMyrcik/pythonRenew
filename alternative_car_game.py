@@ -1,8 +1,11 @@
 #game Car
+#car is stopped when the state =0, car is started when the state is 1
 print('Welcome in my car game!')
 print("you can start. If you don't know the options please type [h]elp.")
 print("What do you want to do? ")
 action = ''
+state = 0
+
 while True:
     action = input('> ').lower()
     if action == 'h':
@@ -13,9 +16,17 @@ In this game You have a possibility to:
 [q]uit the game
 What do you want to do? """)
     elif action == 'start':
-        print('the car is starting')
+        if state == 0:
+            print('the car is starting')
+            state = 1
+        else:
+            print('the car is already started')
     elif action == 'stop':
-        print('the car is stopped')
+        if state == 0:
+            print("car is already stopped")
+        else:
+            print('the car is stopped')
+            state = 0
     elif action == 'q':
         print('OK. Thank you! Have a nice day!')
         break
