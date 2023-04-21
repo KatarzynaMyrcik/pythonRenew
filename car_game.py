@@ -16,7 +16,9 @@ while action != 'q':
         print('the car is starting')
     elif action == 'stop':
         print('the car is stopped')
+    elif action == 'q':
+        print('OK')
     else:
         print("I don't understand. SOrry. If you don't remember the options please try to set [h]elp")
 else:
-    print("OK. Thank you! Have a nice day!")
+    print("Thank you! Have a nice day!")
