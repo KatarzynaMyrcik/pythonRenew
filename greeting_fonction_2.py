@@ -5,5 +5,6 @@ Welcome aboard""")
 
 print("start")
 greetings("John", "Jajo")
-greetings("Mary", "klaczek")
+#position arguments in fonction
+greetings(last_name = "Klaczek", first_name = "Mary")
 print("finish")
