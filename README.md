@@ -9,4 +9,4 @@
 To find the modules/library you can search here:
 [https://docs.python.org/3/py-modindex.html](https://docs.python.org/3/py-modindex.html)
 
-![logoGitHUba](https://octodex.github.com/momtocat/)
+![logoGitHUba](https://octodex.github.com/images/momtocat.png)
