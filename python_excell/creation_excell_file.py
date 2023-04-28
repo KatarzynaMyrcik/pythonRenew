@@ -9,5 +9,8 @@ print(wb.sheetnames)
 ws.title = "Data"
 print(wb.sheetnames)
 
-ws.append(['Kity', 'is', 'the', 'best', '!', 10])
+for i in range(3):
+    ws.append(['Kity', 'is', 'the', 'best', '!', 10])
+ws.append(['end'])
+
 wb.save("kitty.xlsx")
